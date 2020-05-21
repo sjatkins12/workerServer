@@ -24,7 +24,7 @@ func main() {
 	router := router.SetupRouter(taskQueue)
 
 	srv := &http.Server{
-		Addr:    ":8080",
+		Addr:    ":8017",
 		Handler: router,
 	}
 
